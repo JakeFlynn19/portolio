@@ -14,3 +14,14 @@ $(document).ready(function () {
     $('.menu-btn i').toggleClass("active");
   });
 });
+
+
+
+// typing animation 
+
+const typed = new Typed(".typing", {
+    strings: ["Software Engineer.", "Web Developer.", "Programmer."],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
+});
