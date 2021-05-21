@@ -341,16 +341,12 @@ section .title::after {
 
 /* projects styling */
 
+.projects .title::before {
+    background: #fff;
+}
+
 .projects .title::after {
     content: "what I've done";
-    position: absolute;
-    bottom: -12px;
-    left: 50%;
-    font-size: 20px;
-    color: crimson;
-    padding: 5px;
-    /* background: #fff; */
-    transform: translateX(-50%);
 }
 
 .projects .carousel .card {
