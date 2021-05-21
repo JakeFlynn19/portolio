@@ -367,6 +367,10 @@ section .title::after {
     .menu-btn i.active:before {
         content: "\f00d";
     }
+    /* .menu-btn i.active {
+        height: 100px;
+        width: 100px;
+    } */
     .navbar .menu {
         position: fixed;
         height: 100vh;

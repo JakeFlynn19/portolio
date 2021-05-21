@@ -7,6 +7,7 @@ $(document).ready(function () {
     }
   });
 
+
 //   toggle menu/navbar
 
   $('.menu-btn').click(function () {
