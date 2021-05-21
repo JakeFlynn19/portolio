@@ -139,8 +139,8 @@ section {
     padding: 100px 0;
 }
 
-.about, .skills {
-    font-family: 'Poppins', sans-serif;
+.about, .skills, .projects {
+    font-family: 'Poppins', sans-serif; 
 }
 
 .about .about-content, .skills .skills-content {
@@ -337,6 +337,86 @@ section .title::after {
 
 .skills .skills-content .right .sql::before {
     width: 80%;
+}
+
+/* projects styling */
+
+.projects .title::after {
+    content: "what I've done"
+}
+
+.projects .carousel .card {
+    background: crimson;
+    border-radius: 6px;
+    padding: 25px 35px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.projects .carousel .card:hover {
+    background: #111;
+}
+
+.projects .carousel .card .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.projects .carousel .card:hover .box {
+    transform: scale(1.05);
+}
+
+.projects .carousel .card .text {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+    color: #111;
+}
+
+.projects .carousel .card p {
+    color: #fff;
+}
+
+.projects .carousel .card img {
+    height: 150px; 
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #111;
+}
+
+.projects .carousel .card:hover img {
+    border-color: crimson;
+}
+
+.projects .carousel .card:hover .text {
+    color: crimson;
+}
+
+.owl-dots {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.owl-dot {
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    outline: none!important;
+    border-radius: 50%;
+    border: 2px solid #111!important;
+    transition: all 0.3s ease;
+}
+
+.owl-dot.active {
+    width: 35px;
+    border-radius: 14px;
+}
+.owl-dot.active, .owl-dot:hover {
+    background: #111!important;
 }
 
 
