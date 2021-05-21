@@ -341,12 +341,9 @@ section .title::after {
 
 /* projects styling */
 
-.projects .title::before {
-    background: #fff;
-}
-
 .projects .title::after {
     content: "what I've done";
+    font-size: 15px;
 }
 
 .projects .carousel .card {
