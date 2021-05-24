@@ -415,11 +415,15 @@ section .title::after {
   transform: scale(1.05);
 }
 
-.projects .carousel .card .text {
+.projects .carousel .card .text, .projects .carousel .card .text a {
   font-size: 25px;
   font-weight: 500;
   margin: 10px 0 7px 0;
   color: cadetblue;
+}
+
+.projects .carousel .card .text a {
+    text-decoration: underline;
 }
 
 .projects .carousel .card p {
@@ -438,7 +442,7 @@ section .title::after {
   border-color: #111;
 }
 
-.projects .carousel .card:hover .text {
+.projects .carousel .card:hover .text, .projects .carousel .card:hover .text a {
   color: #111;
 }
 
